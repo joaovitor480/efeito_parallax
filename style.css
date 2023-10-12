@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f1f1f1;
+    font-family: sans-serif;
+    color: #2e2b2b;
+}
+
+#navegation{
+    background: #000;
+    padding: 15px;
+}
+
+#navegation ul{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#navegation a{
+    color: #c4c0c0;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+#navegation a:hover{
+    color: #354f96;
+}
+
+.guide{
+    background-image: url(/imagens/banner.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 23%;
+    height: 80vh;
+}
+
+.guide h1{
+    color: #fff;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.guide h3{
+    line-height: 65px;
+    color: #ccc;
+    font-size: 20px;
+}
+
+.hello-world{
+    background: #fff;
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 4em 4em 2em 4em;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    border-radius: 10px;
+}
+
+.hello-world h4{
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.hello-world p{
+    line-height: 35px
+}
+
+.hello-world button{
+    padding: 20px 35px 20px 35px;
+    margin-top: 15px;
+    border: 1px solid #9a9a9a;
+    background: #fff;
+    color: #9a9a9a;
+    cursor: pointer;
+}
+
+.courses{
+    height: 80vh;
+    background-image: url(/imagens/sectionimg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+    margin: 1rem  0 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.course{
+    margin: 2em 0 2em 0;
+    text-align: center;
+    max-width: 650px;
+    height: 400px;
+    background-color: #f1f1f1;
+    backdrop-filter: blur(10px);
+}
+
+.course:hover{
+    box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.25);
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.courses img{
+    width: 315px;
+}
+
+.course p{
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+.course button{
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 20px 35px 20px 35px;
+    border: 1px solid #9a9a9a;
+    background-color: #e2dddd;
+    color: #9a9a9a;
+}
+
+button:hover{
+    outline: 1px solid #000;
+    color:#000;
+    transition: 0.5s;
+}
+
+.copywright{
+    font-style: italic;
+    text-align: center;
+    padding: 25px;
+    color: #9a9a9a;
+}
